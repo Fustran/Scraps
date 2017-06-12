@@ -1,0 +1,23 @@
+{
+  "name": "pixitest",
+  "version": "1.0.0",
+  "description": "some trials with the pixi.js library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fustran/Scraps.git"
+  },
+  "author": "Josh Fangrad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fustran/Scraps/issues"
+  },
+  "homepage": "https://github.com/Fustran/Scraps#readme",
+  "dependencies": {
+    "pixi.js": "^4.5.2"
+  },
+  "devDependencies": {}
+}
