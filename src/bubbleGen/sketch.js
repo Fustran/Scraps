@@ -1,4 +1,4 @@
-var bubbles = []
+var bubbles = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(10)
+  background(10);
   for (var i in bubbles) {
     if (bubbles[i].size < 180) {
       bubbles[i].size += map(bubbles[i].size, 0, 180, 1, 10);

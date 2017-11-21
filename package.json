@@ -1,7 +1,7 @@
 {
-  "name": "pixitest",
+  "name": "scraps",
   "version": "1.0.0",
-  "description": "some trials with the pixi.js library.",
+  "description": "Small js applications (games, visual effects, etc.) created for practice.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Fustran/Scraps#readme",
   "dependencies": {
-    "pixi.js": "^4.5.2"
-  },
-  "devDependencies": {}
+    "p5": "^0.5.16",
+    "pixi.js": "^4.6.1"
+  }
 }

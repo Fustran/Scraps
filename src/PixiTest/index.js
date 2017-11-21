@@ -29,7 +29,6 @@ function loop() {
             particle.rotation = particle.rotation + particle.rot;
             particle.alpha = 1 - (particle.currentLife / particle.lifetime);
             particle.currentLife++;
-            console.log(delta);
     });
 
         app.stage.addChild(particle);
