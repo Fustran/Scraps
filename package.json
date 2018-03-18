@@ -2,7 +2,7 @@
   "name": "scraps",
   "version": "1.0.0",
   "description": "Small js applications (games, visual effects, etc.) created for practice.",
-  "main": "src/index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
