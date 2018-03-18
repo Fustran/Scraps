@@ -1,28 +1,100 @@
 body {
-    background-color: white;
-    padding: 0px; 
-    margin: 10px;
+    background-color: #1c1c1c;
+    margin: 0px;
+    overflow: hidden;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: white;
+    min-height: 20px;
+    padding: 5px;
+    background-color: #1c1c1c;
+    box-shadow: 0px 2px 6px #00000048;
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 
-div.buttonContainer {
+.mainBox {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.buttonContainer {
     width: 40%;
-    height: 100%;
+    background-color: transparent;
+    box-shadow: 0px 2px 6px #00000048;
 }
 
-a.link {
-    -webkit-appearance: button;
-    -moz-appearance: button;
+.backButton {
+    background-color: #0092e6;
+    box-shadow: 0px 2px 6px #00000048;
+    position: absolute;
+    color: transparent;
+    border: none;
+    border-radius: 25px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+    background-image: url('../images/arrow_left.png');
+    animation-name: backButtonFadeIn;
+    animation-duration: 1s;
+}
 
+.backButton:hover {
+    background-color: #007ec7;
+}
+
+@keyframes backButtonFadeIn {
+    0% {
+        left: 5%;
+        opacity: 0;
+    } 
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+.infoPanel {
+    height: 100%;
+    width: 60%;
+    padding: 10px;
+    color: white;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+}
+
+.infoPanel.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.link {
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
     text-decoration: none;
     text-align: center;
     display: block;
     color: #ffffff;
-    background-color: #7700e6;
-    border-radius: 20px;
+    background-color: #0092e6;
+    border-radius: 10px;
     border: none;
     padding: 5px 10px;
     margin: 10px;
-    box-shadow: 0px 2px 6px #888888;
+    box-shadow: 0px 2px 6px #00000048;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.link:hover {
+    background-color: #007ec7;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }

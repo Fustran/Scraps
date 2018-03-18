@@ -1,4 +1,4 @@
-let app = new PIXI.Application(window.innerWidth, window.innerHeight, {backgroundColor : 0x1099bb});
+let app = new PIXI.Application(window.innerWidth, window.innerHeight, {backgroundColor : 0x063E4D});
 document.body.appendChild(app.view);
 
 let grav = 0.3;
