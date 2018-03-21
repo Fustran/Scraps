@@ -1,10 +1,10 @@
 let projList = [
     {name: 'bubbleGen', desc: 'created bubbles slowly grow until they pop. This was created as a means to try out the p5.js rendering library.', src: 'src/bubbleGen/index.html'},
-    {name: 'pixiTest', desc: 'A simplistic experement with the PIXI.js rendering library. Images are created and strewn much like a simple partice emitter system.', src: 'src/pixiTest/index.html'}
+    {name: 'pixiTest', desc: 'A simplistic experiment with the PIXI.js rendering library. Images are created and strewn much like a simple partice emitter system.', src: 'src/pixiTest/index.html'}
 ];
 
-//create a link for each project
 window.onload = () => {
+    //create a link for each project
     for (project of projList) {
         let link = document.createElement('a');
         let text = document.createTextNode(project.name);

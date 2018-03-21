@@ -1,4 +1,4 @@
-let div = document.createElement('a');
+let div = document.createElement('div');
 div.className = 'backButton';
-div.href = '../../index.html';
+div.onclick = () => {window.history.back();}
 document.body.appendChild(div);
