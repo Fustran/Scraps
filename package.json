@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Fustran/Scraps#readme",
   "dependencies": {
-    "p5": "^0.5.16",
-    "pixi.js": "^4.6.1"
+    "p5": "^0.10.2",
+    "pixi.js": "^5.1.5"
   }
 }
